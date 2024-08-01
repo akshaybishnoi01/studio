@@ -1,11 +1,11 @@
 import React from 'react'
 import Slider from "react-slick";
-import haven from '../assets/image/webp/haven.webp'
-import roblox from '../assets/image/webp/roblox.webp'
+import haven from '../assets/image/svg/haven.svg'
+import roblox from '../assets/image/svg/roblox.svg'
 import lavalogo from '../assets/image/svg/lavalogo.svg'
-import dino from '../assets/image/webp/dino.webp'
+import dino from '../assets/image/svg/dino.svg'
 import washing_logo from '../assets/image/svg/washing_logo.svg'
-import tycoon from '../assets/image/webp/tycoon.webp'
+import tycoon from '../assets/image/svg/tycoon.svg'
 const Gaming = () => {
     var settings = {
         dots: false,
