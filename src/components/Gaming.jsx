@@ -27,6 +27,7 @@ const Gaming = () => {
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full ' src={dino} alt="#" />
                 <img className='cursor-pointer md:max-w-[225px] sm:max-w-[180px] max-w-[135px] w-full' src={cat_washing} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={tycoon} alt="#" />
+                
             </Slider>
         </div>
     )
