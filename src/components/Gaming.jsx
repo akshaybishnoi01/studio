@@ -4,7 +4,7 @@ import haven from '../assets/image/webp/haven.webp'
 import roblox from '../assets/image/webp/roblox.webp'
 import lavalogo from '../assets/image/svg/lavalogo.svg'
 import dino from '../assets/image/webp/dino.webp'
-import catwashing from '../assets/image/webp/cat_washing.webp'
+import washing_logo from '../assets/image/svg/washing_logo.svg'
 import tycoon from '../assets/image/webp/tycoon.webp'
 const Gaming = () => {
     var settings = {
@@ -25,7 +25,7 @@ const Gaming = () => {
                 <img className='cursor-pointer md:max-w-[160px] sm:max-w-[180px] max-w-[135px] w-full' src={roblox} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={lavalogo} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full ' src={dino} alt="#" />
-                <img className='cursor-pointer md:max-w-[225px] sm:max-w-[180px] max-w-[135px] w-full' src={catwashing} alt="#" />
+                <img className='cursor-pointer md:max-w-[225px] sm:max-w-[180px] max-w-[135px] w-full' src={washing_logo} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={tycoon} alt="#" />
             </Slider>
         </div>
