@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import CommonButton from '../common/Common_Button'
-import power_lifting from '../assets/image/webp/power_lifting.webp'
+import powerLifting from '../assets/image/webp/power_lifting.webp'
 import group_line from '../assets/image/webp/group_line.webp'
 const Hero = () => {
     return (
@@ -19,7 +19,7 @@ const Hero = () => {
                         <CommonButton buttonName="Contact Us" />
                     </div>
                     <div className='w-6/12 px-3 '>
-                    <img className='sm:opacity-100 opacity-50 w-full lg:max-w-[602px] pointer-events-none md:max-w-[440px] sm:max-w-[350px] max-w-[300px] absolute right-[1%] z-[1] bottom-[10%]' src={power_lifting} alt="#" />
+                    <img className='sm:opacity-100 opacity-50 w-full lg:max-w-[602px] pointer-events-none md:max-w-[440px] sm:max-w-[350px] max-w-[300px] absolute right-[1%] z-[1] bottom-[10%]' src={powerLifting} alt="#" />
                     </div>
                 </div>
             </div>
