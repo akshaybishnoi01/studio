@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import haven from '../assets/image/webp/haven.webp'
 import roblox from '../assets/image/webp/roblox.webp'
-import lavaimg from '../assets/image/webp/lava_land.webp'
+import lavalogo from '../assets/image/svg/lavalogo.svg'
 import dino from '../assets/image/webp/dino.webp'
 import cat_washing from '../assets/image/webp/cat_washing.webp'
 import tycoon from '../assets/image/webp/tycoon.webp'
@@ -23,7 +23,7 @@ const Gaming = () => {
             <Slider {...settings}>
                 <img className='cursor-pointer md:max-w-[151px] sm:max-w-[180px] max-w-[135px] w-full' src={haven} alt="#" />
                 <img className='cursor-pointer md:max-w-[160px] sm:max-w-[180px] max-w-[135px] w-full' src={roblox} alt="#" />
-                <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={lavaimg} alt="#" />
+                <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={lavalogo} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full ' src={dino} alt="#" />
                 <img className='cursor-pointer md:max-w-[225px] sm:max-w-[180px] max-w-[135px] w-full' src={cat_washing} alt="#" />
                 <img className='cursor-pointer md:max-w-[234px] sm:max-w-[180px] max-w-[135px] w-full' src={tycoon} alt="#" />
