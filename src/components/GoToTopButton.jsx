@@ -1,9 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
-
 const GoToTopButton = () => {
   const [visible, setVisible] = useState(false);
-
   const toggleVisibility = () => {
     if (window.pageYOffset > 400) {
       setVisible(true);
@@ -11,21 +8,18 @@ const GoToTopButton = () => {
       setVisible(false);
     }
   };
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
   };
-
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility);
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
-
   return (
     <div className="fixed z-50 bottom-4 right-4">
       {visible && (
@@ -39,5 +33,4 @@ const GoToTopButton = () => {
     </div>
   );
 };
-
 export default GoToTopButton;

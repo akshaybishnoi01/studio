@@ -28,14 +28,12 @@
   transition: all 300ms linear !important;
 }
 .logo_slider .slick-track {
-  display: flex !important;
-  align-items: center !important;
-  gap: 50px !important;
+  @apply flex items-center gap-12;
 }
 .red_top:hover::after {
   content: "";
   position: absolute;
-  background-image: url(../src/assets/image/svg/btn_Border_Top.svg);
+  background-image: url(../src/assets/image/svg/btn_bordertop.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,12 +41,12 @@
   height: 14.21px;
   top: -2px;
   left: -14px;
-  transition: all 0.6s;
+  transition: all 300ms linear !important;
 }
 .red_bottom:hover::before {
   content: "";
   position: absolute;
-  background-image: url(../src/assets/image/svg/btn_Border_Bottom.svg);
+  background-image: url(../src/assets/image/svg/btn_borderbottom.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,14 +54,14 @@
   height: 14.21px;
   bottom: -2px;
   right: -12px;
-  transition: all 0.6s;
+  transition: all 300ms linear !important;
 }
 .featured_slider .slick-slide>div {
   display: flex !important;
   justify-content: center !important;
 }
 .featured_slider .slick-track .slick-slide {
-  margin: 0px 12px !important;
+  margin: 0 12px !important;
 }
 .featured_slider .slick-track {
   display: flex !important;
@@ -89,7 +87,7 @@
   border-radius: 8px !important;
   width: 58px !important;
   height: 10px !important;
-  margin: 0px 8px !important;
+  margin: 0 8px !important;
   cursor: pointer;
   transition: all 200ms linear;
 }
@@ -103,13 +101,13 @@
   height: 10px;
   width: 172px !important;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .slick-dots li.slick-active {
     width: 60px !important;
   }
   .slick-dots li {
     width: 10px !important;
-    margin: 0px 4px !important;
+    margin: 0 4px !important;
   }
   .featured_slider .slick-slide>div {
     display: flex !important;
@@ -119,7 +117,7 @@
     gap: 35px !important;
   }
 }
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .logo_slider .slick-track {
     gap: 25px !important;
   }

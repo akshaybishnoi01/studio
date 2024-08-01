@@ -2,7 +2,7 @@ import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Gaming from './components/Gaming';
-import HeroSection from './components/HeroSection';
+import Hero from './components/Hero';
 import About from './components/About';
 import Featured from './components/Featured';
 import Ourimpact from './components/Ourimpact';
@@ -15,8 +15,8 @@ import PreLoader from './components/PreLoader';
 function App() {
   return (
     <div className='overflow-hidden max-w-[1920px] mx-auto'>
-    <PreLoader />
-      <HeroSection />
+      <PreLoader />
+      <Hero />
       <Gaming />
       <About />
       <Featured />
@@ -25,9 +25,8 @@ function App() {
       <Faq />
       <Newsletter />
       <Footer />
-      <GoToTopButton/>
+      <GoToTopButton />
     </div>
   );
 }
-
 export default App;

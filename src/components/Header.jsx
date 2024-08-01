@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { NavItem_Data } from '../common/Helper';
+import { NAV_ITEM_DATA } from '../common/Helper';
 import CommonButton from '../common/Common_Button';
 import logo from '../assets/image/webp/logo.webp'
 const Header = () => {
   const [show, setShow] = useState(true);
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 992) {
@@ -37,12 +36,12 @@ const Header = () => {
     <div className='container mx-auto px-[12px] pt-[6px]'>
       <div className='flex justify-between items-center '>
         <div className="flex items-center">
-          <img src={logo} alt="#" />
+          <a href="/"><img className='pointer-events-none' src={logo} alt="#" /></a>
         </div>
         <ul
-          className={`flex flex-col lg:flex-row items-center gap-8 max-lg:fixed max-lg:justify-center top-0 max-lg:-left-full max-lg:z-[90] max-lg:h-screen max-lg:w-full max-lg:duration-300  max-lg:bg-hero_Bg bg-cover bg-no-repeat bg-center ${show ? "" : " !start-0"}`}
+          className={`flex flex-col lg:flex-row items-center gap-8 max-lg:fixed max-lg:justify-center top-0 max-lg:-left-full max-lg:z-[90] max-lg:h-screen max-lg:w-full max-lg:duration-300  max-lg:bg-hero_bg bg-cover bg-no-repeat bg-center ${show ? "" : " !start-0"}`}
         >
-          {NavItem_Data.map((item, index) => (
+          {NAV_ITEM_DATA.map((item, index) => (
             <li key={index}>
               <a
                 href={item.href}
@@ -54,12 +53,12 @@ const Header = () => {
             </li>
           ))}
           <li className='lg:hidden flex'>
-          <CommonButton buttonName="Get Started" />
+            <CommonButton buttonName="Get Started" />
           </li>
         </ul>
         <div className='lg:flex hidden'>
-        <CommonButton buttonName="Get Started" />
-          </div>  
+          <CommonButton buttonName="Get Started" />
+        </div>
         <div
           className={`cursor-pointer relative z-[100] lg:hidden max-sm:scale-75 ${show ? "" : "cross"
             }`}
@@ -73,6 +72,5 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;
 

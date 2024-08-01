@@ -1,11 +1,11 @@
 import React from 'react'
 import { FeaturedBottomline } from '../common/Icon'
-import featured_Sliderimg1 from '../assets/image/webp/featured_Sliderimg1.webp'
-import featured_Sliderimg2 from '../assets/image/webp/featured_Sliderimg2.webp'
-import featured_Sliderimg3 from '../assets/image/webp/featured_Sliderimg3.webp'
-import featured_Sliderimg4 from '../assets/image/webp/featured_Sliderimg4.webp'
-import featured_Sliderimg5 from '../assets/image/webp/featured_Sliderimg5.webp'
-import featured_Sliderimg6 from '../assets/image/webp/featured_Sliderimg6.webp'
+import featured_sliderimg1 from '../assets/image/webp/featured_sliderimg1.webp'
+import featured_sliderimg2 from '../assets/image/webp/featured_sliderimg2.webp'
+import featured_sliderimg3 from '../assets/image/webp/featured_sliderimg3.webp'
+import featured_sliderimg4 from '../assets/image/webp/featured_sliderimg4.webp'
+import featured_sliderimg5 from '../assets/image/webp/featured_sliderimg5.webp'
+import featured_sliderimg6 from '../assets/image/webp/featured_sliderimg6.webp'
 import Slider from 'react-slick'
 const Featured = () => {
     var settings1 = {
@@ -70,8 +70,8 @@ const Featured = () => {
         ),
     };
     return (
-        <div className='bg-featured_Bg bg-no-repeat bg-cover -mt-[2px] lg:pb-[177px] md:pb-28 pb-20 '>
-            <div id='Services' className=' flex justify-center lg:pb-24 pb-16'>
+        <div className='bg-featured_bg bg-no-repeat bg-cover -mt-[2px] lg:pb-[177px] md:pb-28 pb-20 '>
+            <div id='services' className=' flex justify-center lg:pb-24 pb-16'>
                 <div className='relative inline-block'>
                     <h2 className='font-bold md:text-custom-42 sm:text-4xl text-custom-32 text-center md:leading-[54px] sm:leading-10 leading-8 font-orbitron text-white max-w-[440px]'>
                         Featured Projects
@@ -83,9 +83,9 @@ const Featured = () => {
             </div>
             <div className='featured_slider'>
                 <Slider {...settings1}>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className=' max-w-[324px] w-full' src={featured_Sliderimg1} alt="#" />
-                        <p className=' max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg1} alt="#" />
+                        <p className='max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>300+</span>
                             Active Players
                             <span className='font-bold text-darkBlue opacity-100 px-2'>800+</span>
@@ -98,8 +98,8 @@ const Featured = () => {
                             Embark on thrilling adventures in a volcanic world, featuring unique challenges and excitement, crafted exclusively for Roblox players.
                         </p>
                     </div>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className='max-w-[324px] w-full' src={featured_Sliderimg2} alt="#" />
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg2} alt="#" />
                         <p className='max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>300+</span>
                             Active Players
@@ -113,8 +113,8 @@ const Featured = () => {
                             Develop a 3D maze game in Roblox: a fun, challenging project that enhances creativity and problem-solving skills for students.
                         </p>
                     </div>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className='max-w-[324px] w-full' src={featured_Sliderimg3} alt="#" />
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg3} alt="#" />
                         <p className='max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>400+</span>
                             Active Players
@@ -128,8 +128,8 @@ const Featured = () => {
                             Embark on an epic adventure in Dino Island, where you can explore a prehistoric world filled with dinosaurs and hidden treasures.
                         </p>
                     </div>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className='max-w-[324px] w-full' src={featured_Sliderimg4} alt="#" />
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg4} alt="#" />
                         <p className='max-w-[235px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>700+</span>
                             Active Players
@@ -143,8 +143,8 @@ const Featured = () => {
                             Experience cozy and adventurous gameplay around a virtual hearth, blending relaxation and excitement uniquely on Roblox.
                         </p>
                     </div>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className='max-w-[324px] w-full' src={featured_Sliderimg5} alt="#" />
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg5} alt="#" />
                         <p className='max-w-[235px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>800+</span>
                             Active Players
@@ -158,9 +158,9 @@ const Featured = () => {
                             Dive into the adorable world of cat care! Build and manage your own cat washing business, upgrade your facilities.
                         </p>
                     </div>
-                    <div className='bg-slider_Boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
-                        <img className=' max-w-[324px] w-full' src={featured_Sliderimg6} alt="#" />
-                        <p className=' max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
+                    <div className='bg-slider_boxbg bg-no-repeat bg-full 2xl:min-h-[461px] min-h-[476px] max-w-[364px] w-full p-[20px]'>
+                        <img className='max-w-[324px] w-full' src={featured_sliderimg6} alt="#" />
+                        <p className='max-w-[229px] font-poppins text-sm leading-[18px] font-normal opacity-70 text-white pt-3'>
                             <span className='font-bold text-darkBlue opacity-100 pe-[6px]'>300+</span>
                             Active Players
                             <span className='font-bold text-darkBlue opacity-100 px-2'>800+</span>
@@ -178,5 +178,4 @@ const Featured = () => {
         </div>
     )
 };
-
 export default Featured
